@@ -1,1 +1,7 @@
+Competitor,Category,Stack maturity (1–5),Observability (1–5),Security (1–5),Delivery (1–5),Proof signals count,Pricing/engagement cue,APW wedge,APW proof needed,Notes + links
+Vapi,Voice AI,4,3,3,4,5,Usage-based pricing,Deeper observability & control,Conversation replay + tracing,https://docs.vapi.ai
+Retell AI,Voice AI,4,3,3,4,4,Usage-based pricing,Better reliability patterns,Failure & retry demo,https://docs.retellai.com
+Bland AI,Outbound Voice AI,3,2,2,3,3,Usage-based pricing,Enterprise readiness,Security & compliance proof,https://docs.bland.ai
+Air.ai,Outbound Sales AI,4,2,3,4,4,High-touch sales pricing,Transparency & debuggability,Explainability dashboard,https://www.air.ai
+PolyAI,Enterprise Voice AI,5,4,4,4,6,Enterprise contracts,Speed + flexibility,Fast deployment demo,https://poly.ai
 
