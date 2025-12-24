@@ -1,52 +1,58 @@
-# VAPI
+What VAPI Does : 
+VAPI is a developer-focused platform for building AI voice agents.
+It supports both phone-based calls and web voice experiences using SDKs.
 
-## 1. System Architecture
-- Channels: Voice (phone), Web SDK
-- Orchestrator: Event-driven agent runtime
-- LLM: OpenAI (GPT-4 / GPT-4o)
-- Memory: Session-based conversation state
-- Tools: Function calling, webhooks
-- Human handoff: Supported via call transfer
+Architecture Summary : 
+VAPI runs on an event-driven agent runtime.
+It uses OpenAI models (GPT-4 / GPT-4o) for responses.
+Conversation state is maintained during each session.
+Agents can trigger custom functions and webhooks.
+Calls can be transferred to a human agent when needed.
+The platform is designed for flexibility and fast development.
 
-## 2. Latency & Streaming
-- Realtime / Turn-based: Realtime streaming
-- Interrupts / Barge-in: Supported
+Latency and Call Experience : 
+Conversations run in real-time streaming mode.
+Users can interrupt the agent naturally.
+This makes interactions feel responsive.
 
-## 3. Telephony & Voice Stack
-- Telephony: Twilio, SIP
-- ASR: Deepgram, Whisper
-- TTS: ElevenLabs, PlayHT
+Telephony and Voice Stack : 
+Telephony support includes Twilio and SIP.
+Speech-to-text is handled by Deepgram or Whisper.
+Text-to-speech uses ElevenLabs or PlayHT.
+The voice stack is modular and configurable.
 
-## 4. Safety & Compliance
-- PII handling: Configurable redaction (LIMITED PUBLIC INFO)
-- Guardrails: Prompt + tool constraints
-- Consent / recording: Telephony-provider dependent
+Safety and Compliance : 
+VAPI supports configurable redaction of sensitive data.
+Guardrails are applied through prompts and tool rules.
+Call recording and consent depend on the telephony setup.
+Public compliance details are limited.
 
-## 5. Observability
-- Logs / Traces: Basic logs via dashboard
-- Analytics: Call logs, transcripts
-- Debugging visibility: Partial (UNKNOWN deeper tracing)
+Observability and Monitoring : 
+Basic logs are available through the dashboard.
+Call transcripts and call history can be reviewed.
+Deep trace-level debugging is partially available.
+This is useful for development and basic monitoring.
 
-## 6. Deployment Model
-- SaaS / VPC / On-prem: SaaS
-- Tenant isolation: Logical isolation
+Deployment Model : 
+VAPI is offered as a SaaS platform.
+Tenant isolation is handled logically.
 
-## 7. Integration Surface
-- CRM: Via webhooks
-- Webhooks / APIs: Yes
-- Tools: Custom functions
+Integrations : 
+Integrations are handled mainly through webhooks and APIs.
+Custom functions allow agents to interact with external systems.
+CRM connections can be built using webhooks.
 
-## 8. Reliability Patterns
-- Retries: UNKNOWN (how to verify: infra docs)
-- Fallbacks: Basic model fallback
-- Queues / rate limits: UNKNOWN
+Reliability : 
+Basic model fallback is supported.
+Other reliability mechanisms are not clearly documented.
 
-## Credibility Signals
-- Public docs available
-- Live demos and SDKs
-- Usage-based pricing
+Overall Impression : 
+Strong developer tooling and SDKs.
+Easy to experiment and iterate.
+Good support for web and phone agents.
+Limited transparency into deeper infrastructure details.
 
-## Sources
+Sources
 - https://docs.vapi.ai
 - https://vapi.ai
 
