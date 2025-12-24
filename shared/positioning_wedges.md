@@ -43,9 +43,3 @@ Features like data masking and access control are built-in.
 
 Why it matters:
 Important for enterprise and regulated use cases.
-
-## 6. Security-First Delivery : 
-PII redaction, consent handling, and auditability are built into the architecture rather than bolted on later.
-
-## 7. Cost & Reliability Transparency :
-APW surfaces token, telephony, and infra costs clearly, enabling proactive cost controls and reliability tuning.
