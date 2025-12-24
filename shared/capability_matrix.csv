@@ -1,7 +1,7 @@
-Competitor,Category,Stack maturity (1–5),Observability (1–5),Security (1–5),Delivery (1–5),Proof signals count,Pricing/engagement cue,APW wedge,APW proof needed,Notes + links
-Vapi,Voice AI,4,3,3,4,5,Usage-based pricing,Deeper observability & control,Conversation replay + tracing,https://docs.vapi.ai
-Retell AI,Voice AI,4,3,3,4,4,Usage-based pricing,Better reliability patterns,Failure & retry demo,https://docs.retellai.com
-Bland AI,Outbound Voice AI,3,2,2,3,3,Usage-based pricing,Enterprise readiness,Security & compliance proof,https://docs.bland.ai
-Air.ai,Outbound Sales AI,4,2,3,4,4,High-touch sales pricing,Transparency & debuggability,Explainability dashboard,https://www.air.ai
-PolyAI,Enterprise Voice AI,5,4,4,4,6,Enterprise contracts,Speed + flexibility,Fast deployment demo,https://poly.ai
-
+| Competitor    | Category            | Stack maturity (1–5) | Observability (1–5) | Security (1–5) | Delivery (1–5) | Why this rating (simple reason)                               | Pricing style        | Where APW can be better       | What APW should show              |
+| ------------- | ------------------- | -------------------- | ------------------- | -------------- | -------------- | ------------------------------------------------------------- | -------------------- | ----------------------------- | --------------------------------- |
+| **Vapi**      | Voice AI            | 4                    | 3                   | 3              | 4              | Good docs and SDKs, but deep debugging not very clear         | Usage-based          | Better call-level visibility  | Call replay + tracing demo        |
+| **Retell AI** | Voice AI            | 4                    | 3                   | 3              | 4              | Flexible APIs, works well for devs, but infra details limited | Usage-based          | Stronger reliability handling | Retry + failure handling demo     |
+| **Bland AI**  | Outbound Voice AI   | 3                    | 2                   | 2              | 3              | Mostly script-based, limited enterprise details               | Usage-based          | Enterprise readiness          | Security & compliance explanation |
+| **Air.ai**    | Outbound Sales AI   | 4                    | 2                   | 3              | 4              | Sales-focused, good demos, but black-box system               | High-touch sales     | Transparency & debugging      | Explainability dashboard          |
+| **PolyAI**    | Enterprise Voice AI | 5                    | 4                   | 4              | 4              | Mature enterprise product with strong support systems         | Enterprise contracts | Faster setup + flexibility    | Fast deployment demo              |
