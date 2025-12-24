@@ -1,52 +1,61 @@
-# Air.ai
+What Air.ai Does : 
+Air.ai mainly focuses on outbound sales calls using AI voice agents.
+The product is designed to automate sales conversations and hand off to humans when required.
 
-## 1. System Architecture
-- Channels: Voice (Outbound sales calls)
-- Orchestrator: Proprietary AI sales agent engine
-- LLM: Proprietary + OpenAI (claimed)
-- Memory: Long-form conversation memory
-- Tools: CRM actions, scheduling
-- Human handoff: Supported mid-call
+Architecture Summary : 
+Air.ai uses its own internal AI engine to run sales calls. 
+It claims to use OpenAI along with proprietary models. 
+The system supports long conversations, which helps in sales use cases. 
+The agent can take actions like CRM updates and meeting scheduling.
+A human can join the call if the AI is unable to continue.
+Overall, the architecture appears optimized for sales workflows rather than general-purpose voice agents.
 
-## 2. Latency & Streaming
-- Realtime / Turn-based: Realtime
-- Interrupts / Barge-in: Supported
+Latency and Call Handling : 
+Calls run in real-time, not turn-based.
+Users can interrupt or speak over the agent (barge-in is supported).
+This makes conversations feel more natural during sales calls.
 
-## 3. Telephony & Voice Stack
-- Telephony: Twilio / SIP (claimed)
-- ASR: Proprietary / UNKNOWN
-- TTS: Proprietary / UNKNOWN
+Telephony and Voice Stack :
+Telephony is claimed to be handled using Twilio or SIP.
+Details about speech-to-text and text-to-speech are not clearly documented.
+Voice stack appears to be mostly proprietary.
+Because of limited public details, this part of the system is largely a black box.
 
-## 4. Safety & Compliance
-- PII handling: Enterprise claims (NO PUBLIC DETAIL)
-- Guardrails: Proprietary controls
-- Consent / recording: Supported
+Safety and Compliance : 
+Air.ai claims to follow enterprise-level data handling practices.
+PII protection is mentioned, but no technical details are publicly shared.
+Call recording and user consent are supported.
+Most safety features are described at a high level.
 
-## 5. Observability
-- Logs / Traces: Dashboard-level visibility
-- Analytics: Sales metrics, call summaries
-- Debugging visibility: LIMITED (black-box)
+Observability and Monitoring : 
+Basic dashboards are available for call summaries and sales analytics.
+Logs and internal traces are not fully exposed to users.
+Debugging options are limited due to the closed nature of the platform.
+This makes deep troubleshooting difficult.
 
-## 6. Deployment Model
-- SaaS / VPC / On-prem: SaaS
-- Tenant isolation: Logical isolation
+Deployment Model : 
+Air.ai is offered as a SaaS-only product.
+Customers do not have on-prem or VPC deployment options.
+Tenant isolation is logical rather than physical.
 
-## 7. Integration Surface
-- CRM: Salesforce, HubSpot (claimed)
-- Webhooks / APIs: LIMITED public APIs
-- Tools: Calendar, CRM actions
+Integrations : 
+CRM integrations with Salesforce and HubSpot are supported.
+Calendar scheduling is available.
+Public APIs and webhooks are limited.
+Integrations are focused mainly on sales-related use cases.
 
-## 8. Reliability Patterns
-- Retries: UNKNOWN
-- Fallbacks: Human fallback
-- Queues / rate limits: UNKNOWN
+Reliability : 
+Human handoff acts as the main fallback mechanism.
+Details about retries, queues, and rate limiting are not publicly available.
+Reliability strategies are not clearly documented.
 
-## Credibility Signals
-- Strong marketing demos
-- Named enterprise customers
-- High-touch sales pricing model
+Overall Impression :
+Strong marketing and demos.
+Focused on outbound sales automation.
+Limited transparency into internal systems.
+High-touch enterprise sales model.
 
-## Sources
+Sources : 
 - https://www.air.ai
 - https://www.air.ai/demo
 
