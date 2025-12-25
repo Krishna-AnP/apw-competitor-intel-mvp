@@ -1,7 +1,6 @@
-| Competitor    | Category            | Stack maturity (1–5) | Observability (1–5) | Security (1–5) | Delivery (1–5) | Why this rating (simple reason)                               | Pricing style        | Where APW can be better       | What APW should show              |
-| ------------- | ------------------- | -------------------- | ------------------- | -------------- | -------------- | ------------------------------------------------------------- | -------------------- | ----------------------------- | --------------------------------- |
-| **Vapi**      | Voice AI            | 4                    | 3                   | 3              | 4              | Good docs and SDKs, but deep debugging not very clear         | Usage-based          | Better call-level visibility  | Call replay + tracing demo        |
-| **Retell AI** | Voice AI            | 4                    | 3                   | 3              | 4              | Flexible APIs, works well for devs, but infra details limited | Usage-based          | Stronger reliability handling | Retry + failure handling demo     |
-| **Bland AI**  | Outbound Voice AI   | 3                    | 2                   | 2              | 3              | Mostly script-based, limited enterprise details               | Usage-based          | Enterprise readiness          | Security & compliance explanation |
-| **Air.ai**    | Outbound Sales AI   | 4                    | 2                   | 3              | 4              | Sales-focused, good demos, but black-box system               | High-touch sales     | Transparency & debugging      | Explainability dashboard          |
-| **PolyAI**    | Enterprise Voice AI | 5                    | 4                   | 4              | 4              | Mature enterprise product with strong support systems         | Enterprise contracts | Faster setup + flexibility    | Fast deployment demo              |
+Competitor,Category,Stack maturity (1–5),Observability (1–5),Security (1–5),Delivery (1–5),Proof signals count,Pricing/engagement cue,APW wedge,APW proof needed,Notes + links
+AIR AI,Voice AI,3,2,2,3,2,UNKNOWN,Better observability,Call tracing demo,Homepage + demo (https://air.ai)   
+BLAND AI,Voice AI,3,3,3,3,3,Per-minute pricing,Faster customization,Voice POC,Docs + pricing (https://www.bland.ai)
+PolyAI,Voice AI,5,4,4,4,4,Enterprise sales,Faster iteration,Reference architecture,Case studies (https://poly.ai)
+Retell AI,Voice AI,4,3,3,4,3,Usage-based,Lower latency,Realtime benchmark,API docs (https://retellai.com)
+Vapi,Voice AI,4,4,3,4,4,Usage-based,Better DX,SDK demo,GitHub + docs (https://vapi.ai)
