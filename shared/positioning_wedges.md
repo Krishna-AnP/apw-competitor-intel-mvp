@@ -1,45 +1,47 @@
 # APW Positioning Wedges (Voice & Agentic AI)
 
 What “APW Wedge” means : 
-APW wedge means what makes APW different and better compared to other voice AI platforms.
+APW wedge means what makes APW different and better compared to other voice AI platforms. 
+Each wedge represents a clear technical advantage over competitors and is backed by a specific proof artifact.
 
-1. Better Observability and Debugging : 
-APW makes it easy to see what is happening inside calls.
-Teams can check logs, transcripts, and errors without guessing.
+1. Better Observability & Debugging
+APW Advantage: 
+Full call traces, latency breakdowns, and detailed logs across the entire voice interaction lifecycle.
 
-Why it matters:
-Problems can be found and fixed faster.
+Proof Required:  
+Call analytics and tracing dashboard.
 
-2. Transparent Architecture : 
-APW is designed in a way where system flow is clear and understandable.
-Nothing feels like a black box.
+2. Transparent Architecture
+APW Advantage:  
+Clear, well-documented reference architectures that explain system components and data flow.
 
-Why it matters:
-Developers know how things work and can trust the system.
+Proof Required:  
+Published architecture documentation.
 
-3. Faster Custom Deployments : 
-APW can be set up quickly, even for custom requirements.
-It does not require long enterprise setup cycles.
+3. Faster Custom Deployments
+APW Advantage:  
+Rapid setup with tailored workflows to meet customer-specific requirements.
 
-Why it matters:
-Teams can go live faster.
+Proof Required: 
+Deployment playbook outlining setup and customization steps.
 
-4. Flexible Model and Vendor Choice :  
-APW is not tied to one AI model or provider.
-Teams can choose different LLMs, ASR, TTS, or telephony providers.
+4. Flexible Model & Vendor Choice
+APW Advantage:  
+Support for multiple LLMs and ASR/TTS providers, avoiding vendor lock-in.
 
-Why it matters:
-Avoids vendor lock-in and gives more control.
+Proof Required:  
+Configurable agent demo demonstrating dynamic provider selection.
 
-5. Strong Human Handoff : 
-APW allows smooth transfer from AI to human agents during a live call.
+5. Strong Human Handoff
+APW Advantage:  
+Seamless live transfer from AI to human agents during ongoing calls.
 
-Why it matters:
-Users always have a safe fallback.
+Proof Required:  
+Human handoff demo showcasing real-time takeover.
 
-6. Security-First Builds : 
-Security is considered from the start, not added later.
-Features like data masking and access control are built-in.
+6. Security-First Builds
+APW Advantage:  
+Built-in PII redaction and consent enforcement across voice interactions.
 
-Why it matters:
-Important for enterprise and regulated use cases.
+Proof Required: 
+Security demo and compliance checklist.
